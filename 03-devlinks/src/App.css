@@ -47,12 +47,17 @@
 
 #links ul {
   list-style: none;
-  display: flex;
+  display: block;
   flex-direction: column;
   gap: 16px;
   padding: 24px;
 }
-
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 #socialLinks {
   display: flex;
   justify-content: center;

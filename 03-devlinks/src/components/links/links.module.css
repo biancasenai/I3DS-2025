@@ -14,6 +14,13 @@ li a {
     text-decoration: none;
     font-weight: bold;
 }
+li{
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    list-style: none;
+}
 
 /*pseudo-selector */
 li a:hover {
