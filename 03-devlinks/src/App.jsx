@@ -17,11 +17,11 @@ const App = () => {
   };
   return (
     <div id="App" className={isLight && "light"}>
-      <Perfil fotoPerfil={isLight ? fotoLight : fotoDark}>@Bianca</Perfil>
+      <Perfil fotoperfil={isLight ? fotoLight : fotoDark}>@Bianca</Perfil>
 
       <Switch troca={troca} isLight={isLight} />
       <ul>
-        <Links link={"/https://github.com/biancasenai"}>Github</Links>
+        <Links link={"https://github.com/biancasenai/I3DS-2025"}>Github</Links>
         <Links link={"https://www.instagram.com/"}>Instagram</Links>
         <Links link={"https://www.youtube.com/"}>Youtube</Links>
         <Links
@@ -32,14 +32,15 @@ const App = () => {
       </ul>
       <div id="socialLinks">
         <SocialLinks
-          link={"https://github.com/biancasenai"}
+          link={"https://github.com/biancasenai/I3DS-2025"}
           icon={"logo-github"}
         />
         <SocialLinks
           link={"https://www.instagram.com/"}
           icon={"logo-instagram"}
         />
-        <SocialLinks link={"https://www.youtube.com/"} icon={"logo-youtube"} />
+        <SocialLinks link={"https://www.youtube.com/"} 
+        icon={"logo-youtube"} />
         <SocialLinks
           link={"https://www.linkedin.com/in/bianca-furlanetto-b895b2353/"}
           icon={"logo-linkedin"}
