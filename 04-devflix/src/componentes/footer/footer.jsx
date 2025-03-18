@@ -1,10 +1,10 @@
-import "./footer.css";
+import "./Footer.module.css";
 
 const Footer = (props) => {
   return (
     <footer>
       <p>
-        Feito com 💜 por{" "}
+        Feito com 💜 por {"Bianca Furlanetto"}
         <a href={props.devlink} target="_blank">
           {props.devname}
         </a>
