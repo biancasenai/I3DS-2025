@@ -10,8 +10,9 @@ const App = () => {
   const [movies, setMovies] = useState([]);
 
   //Utilizando chave de API do arquivo .env
-  const apiKey = import.meta.env.VITE_OMDB_API_KEY;
-  const apiUrl = `https://omdbapi.com/?apikey=${apiKey}`;
+  //const apiKey = import.meta.env.VITE_OMDB_API_KEY;
+  const apikey = "e4d577fa"
+  const apiUrl = `https://omdbapi.com/?apikey=${apikey}`;
 
   //Alimentando com dados para não ficar nulo com useEffect
   useEffect(() => {
